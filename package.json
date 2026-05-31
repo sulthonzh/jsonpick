@@ -1,0 +1,22 @@
+{
+  "name": "jsonpick",
+  "version": "1.0.0",
+  "description": "Extract and transform JSON with dot-notation paths — minimal jq alternative, zero dependencies",
+  "main": "src/index.js",
+  "bin": {
+    "jsonpick": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": ["json", "jq", "query", "extract", "transform", "cli", "zero-dependencies"],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/jsonpick"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
