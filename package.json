@@ -9,7 +9,15 @@
   "scripts": {
     "test": "node test/run.js"
   },
-  "keywords": ["json", "jq", "query", "extract", "transform", "cli", "zero-dependencies"],
+  "keywords": [
+    "json",
+    "jq",
+    "query",
+    "extract",
+    "transform",
+    "cli",
+    "zero-dependencies"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
   "repository": {
@@ -18,5 +26,13 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
   }
 }
