@@ -1,5 +1,5 @@
 {
-  "name": "jsonpick",
+  "name": "@sulthonzh/jsonpick",
   "version": "1.0.0",
   "description": "Extract and transform JSON with dot-notation paths — minimal jq alternative, zero dependencies",
   "main": "src/index.js",
@@ -23,6 +23,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sulthonzh/jsonpick"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "engines": {
     "node": ">=14"
